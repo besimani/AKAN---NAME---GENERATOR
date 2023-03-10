@@ -1,5 +1,5 @@
-const MALE_NAMES = ["Kwasi","Kwado","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
-const FEMALE_NAMES = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+const MALE_NAMES = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+const FEMALE_NAMES = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua",   "Ama"];
 let userAkanName = null;
 
 function getUserInfo(){
@@ -20,7 +20,7 @@ function calculateDayIndex(cc, yy, mm, dd){
 function getAkanName(){
     if(gender == "m"){
         userAkanName = MALE_NAMES[indexOfDay];
-    } else if (gender =="f"){
+    } else if (gender == "f"){
         userAkanName = FEMALE_NAMES[indexOfDay];
     } else {
         console.log("Gender not known");
