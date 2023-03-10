@@ -12,7 +12,7 @@ Beranard Amaitsa Simani
 Its a landing page about Akan Name Generator
 
 ## Setup Instructions
-- git clone https://github.com/besimani/AKAN---NAME---GENERATOR
+- git clone https://github.com/besimani/akan-name-generator
 - open the cloned folder in vs code
 - Go live
 
@@ -25,7 +25,7 @@ Its a landing page about Akan Name Generator
 - Git & Github
 
 ## Live Link
-https://besimani.github.io/AKAN---NAME---GENERATOR
+https://besimani.github.io/akan-name-generator
 
 ## License
 (c) 2023 Bernard Amaitsa Simani
