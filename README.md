@@ -5,8 +5,8 @@ Akan Name Generator
 Beranard Amaitsa Simani
 
 ## Contact
-Bernard Amaitsa Simani
-Mobile: +254721790293
+- Bernard Amaitsa Simani
+- Mobile: +254721790293
 
 ## About this project 
 Its a landing page about Akan Name Generator
@@ -19,7 +19,7 @@ Its a landing page about Akan Name Generator
 ## Technologies used
 - HTHL
 - CSS
-    -CSS.Boostrap
+- Boostrap
 - Vs Code
 - Java script
 - Git & Github
