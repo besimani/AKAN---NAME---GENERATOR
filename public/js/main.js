@@ -1,6 +1,7 @@
 const MALE_NAMES = ["Kwasi", "Kwado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 const FEMALE_NAMES = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 let userAkanName = null;
+let gender = null;
 
 function getUserInfo(){
     let birthYear = prompt("Enter your birth year:");
@@ -19,8 +20,8 @@ function calculateDayIndex(cc, yy, mm, dd){
     
 }
 
-function getAkanName(){
-    let indexOfDay = calculateDayIndex();
+function getAkanName(indexOfDay){
+    // let indexOfDay = calculateDayIndex();
 
     if(gender == "m"){
         userAkanName = MALE_NAMES[indexOfDay];
@@ -33,6 +34,6 @@ function getAkanName(){
 
 
 function main(){
-    getUserInfo();
+    let indexOfDay = getUserInfo();
     getAkanName();
 }
