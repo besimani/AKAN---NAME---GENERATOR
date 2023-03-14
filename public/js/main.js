@@ -37,4 +37,6 @@ function main(){
     let indexOfDay = getUserInfo();
     getAkanName(indexOfDay);
     console.log(userAkanName);
+
+    document.getElementById("output").innerHTML = "Your Akan Name is: " + userAkanName;
 }
