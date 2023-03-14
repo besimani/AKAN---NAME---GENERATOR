@@ -29,5 +29,6 @@ function getAkanName(){
 
 
 function main(){
+    getUserInfo();
     getAkanName();
 }
