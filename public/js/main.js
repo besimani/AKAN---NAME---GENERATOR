@@ -35,6 +35,6 @@ function getAkanName(indexOfDay){
 
 function main(){
     let indexOfDay = getUserInfo();
-    getAkanName();
+    getAkanName(indexOfDay);
     console.log(userAkanName)
 }
