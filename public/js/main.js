@@ -9,6 +9,8 @@ function getUserInfo(){
     let mm = parseInt(prompt("Enter the month:"));
     let dd = parseInt(prompt("Enter the date:"));
     let gender = prompt("Enter the gender:");
+    let indexOfDay = Math.floor((((cc/4) -2*cc-1) + ((5*yy/4)) + ((26*(mm+1)/10)) + dd) % 7)
+    return indexOfDay;
 }
 
 function calculateDayIndex(cc, yy, mm, dd){
@@ -19,7 +21,7 @@ function calculateDayIndex(cc, yy, mm, dd){
 
 function getAkanName(){
     let indexOfDay = calculateDayIndex();
-    
+
     if(gender == "m"){
         userAkanName = MALE_NAMES[indexOfDay];
     } else if (gender == "f"){
